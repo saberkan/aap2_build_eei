@@ -1,0 +1,1 @@
+ansible-playbook -i inventory.yml -l builder playbooks/build_eei.yml

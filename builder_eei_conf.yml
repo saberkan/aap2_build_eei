@@ -1,0 +1,17 @@
+---
+ee_list:
+  - ee_name: saberkan_okd_ee
+    base_image: registry.redhat.io/ansible-automation-platform-23/ee-minimal-rhel8:latest
+    python:
+      - name: kubernetes>=25.3.0
+    collections:
+      - name: redhat.openshift
+        version: 2.2.0
+
+ee_image_push: true
+ee_prune_images: false
+ee_create_ansible_config: false
+
+ee_pull_collections_from_hub: true
+galaxy_cli_opts: --ignore-certs
+...
