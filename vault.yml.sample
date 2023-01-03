@@ -1,0 +1,6 @@
+ee_registry_dest: myhub.com # don't use https://
+ee_registry_username: login
+ee_registry_password: password
+
+ee_ah_host: myhub.com
+ee_ah_token: token # load from UI
